@@ -8,7 +8,7 @@ import ShoppingCart from './layouts/ShoppingCart/index.jsx'
 function App() {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename='/React-day-38'>
                 <h1 className='text-2xl font-bold text-center py-8 text-blue-600'>
                     Chào mừng bạn đã đến với bài tập về nhà của Ngô Đình Nhật Minh k14 react day 38
                 </h1>
