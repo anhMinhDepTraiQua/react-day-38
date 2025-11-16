@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import CartContext from "../CartContext/Context";
+import CartContext from "../contexts/CartContext/Context";
 
 // custom hook: lấy giá trị từ CartContext. Nếu dùng ngoài Provider -> throw error
 export default function useCart() {

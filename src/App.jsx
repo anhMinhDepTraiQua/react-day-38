@@ -4,7 +4,7 @@ import Counter from './pages/Counter/index.jsx'
 import CountDown from './pages/CountDown/index.jsx'
 import './App.css'
 import ShoppingCart from './pages/ShoppingCart/index.jsx'
-import CartProvider from "./CartContext";
+import CartProvider from "./contexts/CartContext/index.js";
 function App() {
     return (
         <>
